@@ -6,7 +6,9 @@ Flask API example.
 
 - `GET` `/`
 
-  Index page.
+  Index page. Generate human-readable routes index.
+
+  Sample response:
 
   ```
   GET /uuid/random
