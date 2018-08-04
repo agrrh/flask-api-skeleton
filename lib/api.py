@@ -30,7 +30,7 @@ class API(object):
         @self.app.route("/uuid/random", methods=['GET'])
         def uuid_get_random():
             """Return random UUID."""
-            return jsonify(uuid.uuid4())
+            return str(uuid.uuid4())
 
     def run(self):
         self.app.run(
